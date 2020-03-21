@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS helpfulsale;
+CREATE DATABASE helpfulsale;
+
+USE helpfulsale;
+
+CREATE TABLE leads (
+    Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    userName VARCHAR(255) NOT NULL,
+    userAddress VARCHAR(255) NOT NULL,
+    userPhone VARCHAR(255) NOT NULL,
+    userEmail VARCHAR (255) NOT NULL,
+    userPref VARCHAR (255) NOT NULL
+);
