@@ -3,7 +3,22 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: transparent;
     text-align: center;
+    background-image: url("../Images/latinatechies.com.png") no-repeat;
+    vertical-align: top;
+    height: 28px;
+    font-family: Arial;
+    font-size: 12px;
+    color: turquoise;
+    font-weight: lighter;
   }
+
+#image {
+    height: 50px;
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}

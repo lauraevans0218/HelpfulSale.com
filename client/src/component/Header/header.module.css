@@ -1,7 +1,8 @@
 .image {
-    width: 150px;
+    width: 250px;
     position: sticky;
     right: 0;
+    height: 250px;
 }
 
 .text {

@@ -9,29 +9,38 @@ const Lead_Form = () => (
         <p>Please fill out this form and we will contact you to discuss how we can help you:</p>
             <span className={style.text}>
             <label>Name:</label>
-            <input></input>
+            <input id={style.inputs}></input>
             </span>
             <br></br>
             <span>
+                <span>
                 <label>Home Address:</label>
-                <input></input>
+                <input id={style.inputs}></input>
+                </span>
+                <br></br>
                 <label>City:</label>
-                <input></input>
+                <input id={style.inputSmall}></input>
+               
                 <label>State:</label>
-                <input></input>
-                <label>Zip Code</label>
-                <input></input>
+                <input id={style.inputSmall}></input>
+                
+                <label>Zip Code:</label>
+                <input id={style.inputSmall}></input>
             </span>
             <br></br>
             <span>
                 <label>Phone Number:</label>
-                <input></input>
+                <input id={style.inputSmall}></input>
             </span>
             <br></br>
             <span>
                 <label>E-mail:</label>
-                <input></input>
+                <input id={style.inputs}></input>
             </span>
+            <br></br>
+            <div style={{textAlign: "center"}}>
+            <button className={style.button}>Submit</button>
+            </div>
         </form>
     </div>
 );

@@ -3,21 +3,67 @@
     border-radius: 10px;
     padding: 10px;
     top: 50%;
-    right: -25%;
-    /* left: 40%; */
-    opacity: 90%;
+    opacity: 85%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 25px;
     border-color: transparent;
-    width: 50%;
-    margin-top: 100px;
+    width: 80%;
+    margin: 5em;
+    z-index: 1;
 }
 
 .mainText {
-    font-size: 35px;
+    font-size: 45px;
     font-family: Marker Felt, fantasy;
     font-weight: bold;
     color: blue;
     font-style: italic;
-    position: 
+    text-align: center;
+    text-shadow: 2px 2px 0px gray, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+#inputs {
+    width: 70%;
+    padding: 8px;
+    margin: 5px;
+}
+
+#inputOther {
+    padding: 8px;
+    width: 50%;
+    margin: 5px;
+}
+
+#inputSmall {
+    width: 20%;
+    margin: 5px;
+    padding: 8px;
+}
+
+.button {
+    box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #7cacde;
+    
+}
+
+.button:hover {
+    background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+
+.button:active {
+    position:relative;
+	top:1px;
 }
