@@ -1,0 +1,14 @@
+.main {
+    height: 100%;
+    width: 200px;
+}
+
+.header {
+    margin: auto;
+    position: fixed;
+    right: 5%;
+    top: 15%;
+    font-family: Marker Felt, fantasy;
+    font-weight: bold;
+    color: blue;
+}

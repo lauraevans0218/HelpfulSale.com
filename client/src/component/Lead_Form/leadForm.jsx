@@ -4,8 +4,10 @@ import style from './Lead_Form.module.css';
 const Lead_Form = () => (
     <div>
         <br></br>
-        <form>
-            <span>
+        <h1 className={style.mainText}>Need to sell you home fast? Together, we can do this!</h1>
+        <form className={style.form}>
+        <p>Please fill out this form and we will contact you to discuss how we can help you:</p>
+            <span className={style.text}>
             <label>Name:</label>
             <input></input>
             </span>

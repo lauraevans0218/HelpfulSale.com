@@ -8,7 +8,11 @@ module.exports = {
                 use: ['babel-loader'],
             },
             {
-                test: /\.(png|jpg|gif|jpeg)$/i,
+                test: /\.html$/i,
+                loader: 'html-loader',
+              },
+            {
+                test: /\.(png|jpg|gif|jpeg|mp4)$/i,
                 use: [
                   {
                     loader: 'url-loader'
