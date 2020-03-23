@@ -1,14 +1,18 @@
-.main {
-    height: 100%;
-    width: 200px;
+.image {
+    width: 150px;
+    position: sticky;
+    right: 0;
 }
 
-.header {
-    margin: auto;
-    position: fixed;
-    right: 5%;
-    top: 15%;
+.text {
     font-family: Marker Felt, fantasy;
     font-weight: bold;
     color: blue;
+    font-size: 2em;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background: transparent;
 }
