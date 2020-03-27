@@ -1,7 +1,7 @@
 #menuBar {
     width: 95%;
-    margin: 10px 0px 0px 10px;
-    padding: 0px 6px 6px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     height: 60px;
     line-height: 100%;
     border-radius: 7px;
@@ -14,18 +14,20 @@
     /* background: linear-gradient(top,  #E6E6E6,  #ABABAB); */
     /* border: outset 1px #FAFAFA; */
     position:relative;
+    left: -12%;
     z-index:999;
     text-align: center;
   }
 
   #menuBar li {
-    margin: 10px 20px 10px 20px;
-    padding: 10px 100px 10px 100px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     /* display: inline-block; */
     position: relative;
     list-style: none;
     width: 200px;
     float: right;
+
   }
 
   #menuBar a {
@@ -62,15 +64,18 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     text-shadow: 2px 2px 3px #FFFFFF;
     width: 100%;
+    
   }
 
   #menuBar ul li:hover a, #menuBar li:hover li a {
-    background: none;
+    background: white;
     border: none;
-    color: transparent;
+    /* color: transparent; */
     /* -webkit-box-shadow: none;
     -moz-box-shadow: none; */
     width: 100%;
+    text-indent: center;
+    
   }
 
   #menuBar ul a:hover {
@@ -85,6 +90,7 @@
     -moz-border-radius: 0; */
     text-shadow: 2px 2px 3px #FFFFFF;
     width: 100%;
+    
   }
 
   #menuBar li:hover > ul {
@@ -114,10 +120,11 @@
 
   #menuBar ul li {
     float: none;
-    margin: 2;
+    /* margin: 2; */
     padding: 0;
     width: 200px;
-    margin-left: 20%;
+    margin-left: 9%;
+    display: block;
   }
 
   #menuBar ul a {
@@ -129,6 +136,7 @@
     font-weight: normal;
     text-shadow: 2px 2px 3px #FFFFFF;
     text-align: center;
+    border-radius: 5px;
   }
 
   #menuBar ul li:first-child > a {

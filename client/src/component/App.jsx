@@ -3,9 +3,9 @@ import style from "./App.module.css";
 import Lead_Form from "./Lead_Form/leadForm";
 import Nav_Bar from "./Nav_Bar/navBar";
 import Header from "./Header/header";
-import Background from "./Background/background";
 import Footer from "./Footer/footer";
 import image from "./Images/handShake.png"
+import logo from "./Images/latinatechies.com.png";
 
 
 
@@ -15,9 +15,11 @@ class App extends React.Component {
       <div>
         <Header />
         <Nav_Bar />
-        <Background />
         <Lead_Form />
         <Footer />
+        
+        <div className={style.footer}>Designed and coded by lauraevans.dev <button className={style.admin}>Admin Portal</button> </div>
+        
       </div>
     );
   }

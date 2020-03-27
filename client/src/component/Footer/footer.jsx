@@ -5,7 +5,7 @@ import logo from "../Images/latinatechies.com.png";
 
 const Footer = () => (
 <div>
-    <div className={style.footer}>Designed and coded by <img src={logo} id={style.image}></img></div>
+    
     </div>
 );
 
