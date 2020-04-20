@@ -6,6 +6,7 @@ import Header from "./Header/header";
 import Footer from "./Footer/footer";
 import image from "./Images/handShake.png"
 import logo from "./Images/latinatechies.com.png";
+import Instant_Message from './Instant_Message/instant_message';
 
 
 
@@ -17,8 +18,8 @@ class App extends React.Component {
         <Nav_Bar />
         <Lead_Form />
         <Footer />
+        <Instant_Message />
         
-        <div className={style.footer}>Designed and coded by lauraevans.dev <button className={style.admin}>Admin Portal</button> </div>
         
       </div>
     );
